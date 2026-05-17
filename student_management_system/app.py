@@ -174,6 +174,41 @@ class StudentManager:
                 return student
         return None
 
+    def marks_stats(self, student):
+
+        if not student:
+            return None
+
+        marks = student.student_marks
+
+        average = (
+            marks.math_mark +
+            marks.chemistry_mark +
+            marks.physics_mark +
+            marks.biology_mark) / 4
+
+        total_sum = (marks.math_mark +
+                     marks.chemistry_mark +
+                     marks.physics_mark +
+                     marks.biology_mark)
+
+        marks_dict = {
+            "Math": marks.math_mark,
+            "Chemistry": marks.chemistry_mark,
+            "Physics": marks.physics_mark,
+            "Biology": marks.biology_mark
+        }
+
+        highest_subject = max(marks_dict, key=marks_dict.get)
+        highest_mark = marks_dict[highest_subject]
+
+        return {
+            "average": average,
+            "totalsum": total_sum,
+            "highest_subject": highest_subject,
+            "highest_mark": highest_mark
+        }
+
 
 def clear_console():
 
@@ -305,9 +340,9 @@ while True:
             input("\nPress Enter to continue...")
             continue
 
-        result = manager.delete_student(del_user_id)
+        resultdel = manager.delete_student(del_user_id)
 
-        if result:
+        if resultdel:
 
             manager.save_student()
 
@@ -335,7 +370,8 @@ while True:
             input("\nPress Enter to continue...")
             continue
 
-        search = manager.search_student(search_input)
+        student = manager.search_student(search_input)
+        result = manager.marks_stats(student)
 
         print("Loading", end="")
 
@@ -345,8 +381,15 @@ while True:
 
         print()
 
-        if search:
-            print(search)
+        if student:
+
+            print(student)
+
+            print("Average Marks", result["average"])
+            print("Total Marks:", result["totalsum"])
+            print("Percentage", (result["totalsum"]/400)*100, "%")
+            print("Highest Score:",
+                  result["highest_subject"], result["highest_mark"])
 
         else:
             print("✗ Student Not Found")
