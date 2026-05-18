@@ -47,6 +47,6 @@
     {
         "title": "the hobbit",
         "author": "j.r.r. tolkien",
-        "is_available": false
+        "is_available": true
     }
 ]
