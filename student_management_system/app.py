@@ -157,7 +157,7 @@ class StudentManager:
 
     def save_student(self):
 
-        with open("student.json", "w") as file:
+        with open("student_management_system/student.json", "w") as file:
 
             json.dump(
 

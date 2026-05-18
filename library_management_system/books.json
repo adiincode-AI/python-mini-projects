@@ -1,0 +1,52 @@
+[
+    {
+        "title": "atomic habits",
+        "author": "james clear",
+        "is_available": true
+    },
+    {
+        "title": "the alchemist",
+        "author": "paulo coelho",
+        "is_available": false
+    },
+    {
+        "title": "clean code",
+        "author": "robert c. martin",
+        "is_available": true
+    },
+    {
+        "title": "rich dad poor dad",
+        "author": "robert kiyosaki",
+        "is_available": true
+    },
+    {
+        "title": "think and grow rich",
+        "author": "napoleon hill",
+        "is_available": false
+    },
+    {
+        "title": "deep work",
+        "author": "cal newport",
+        "is_available": true
+    },
+    {
+        "title": "1984",
+        "author": "george orwell",
+        "is_available": true
+    },
+    {
+        "title": "the pragmatic programmer",
+        "author": "andrew hunt",
+        "is_available": false
+    },
+    {
+        "title": "python crash course",
+        "author": "eric matthes",
+        "is_available": true
+    },
+    {
+        "title": "the hobbit",
+        "author": "j.r.r. tolkien",
+        "is_available": false
+    }
+]

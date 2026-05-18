@@ -1,119 +1,28 @@
 [
     {
         "student_id": 1,
-        "student_name": "Aarav",
-        "student_dob": "2008-05-14",
-        "student_class": 10,
-        "student_gender": "M",
-        "student_marks": {
-            "math": 91,
-            "chemistry": 74,
-            "physics": 88,
-            "biology": 69
-        }
-    },
-    {
-        "student_id": 2,
-        "student_name": "Vihaan",
-        "student_dob": "2009-11-02",
-        "student_class": 9,
-        "student_gender": "M",
-        "student_marks": {
-            "math": 65,
-            "chemistry": 82,
-            "physics": 71,
-            "biology": 90
-        }
-    },
-    {
-        "student_id": 4,
-        "student_name": "Krishna",
-        "student_dob": "2010-07-18",
-        "student_class": 8,
-        "student_gender": "M",
-        "student_marks": {
-            "math": 58,
-            "chemistry": 61,
-            "physics": 73,
-            "biology": 67
-        }
-    },
-    {
-        "student_id": 5,
-        "student_name": "Ishita",
-        "student_dob": "2006-01-30",
-        "student_class": 12,
-        "student_gender": "F",
-        "student_marks": {
-            "math": 88,
-            "chemistry": 79,
-            "physics": 95,
-            "biology": 81
-        }
-    },
-    {
-        "student_id": 6,
-        "student_name": "Rohan",
-        "student_dob": "2011-09-12",
-        "student_class": 7,
-        "student_gender": "M",
-        "student_marks": {
-            "math": 72,
-            "chemistry": 68,
-            "physics": 75,
-            "biology": 80
-        }
-    },
-    {
-        "student_id": 7,
-        "student_name": "Arya",
-        "student_dob": "2008-12-05",
-        "student_class": 10,
-        "student_gender": "F",
-        "student_marks": {
-            "math": 85,
-            "chemistry": 77,
-            "physics": 83,
-            "biology": 91
-        }
-    },
-    {
-        "student_id": 8,
-        "student_name": "Kabir",
-        "student_dob": "2012-04-25",
-        "student_class": 6,
-        "student_gender": "M",
-        "student_marks": {
-            "math": 49,
-            "chemistry": 57,
-            "physics": 63,
-            "biology": 70
-        }
-    },
-    {
-        "student_id": 10,
-        "student_name": "Meera",
-        "student_dob": "2007-10-09",
-        "student_class": 11,
-        "student_gender": "F",
-        "student_marks": {
-            "math": 81,
-            "chemistry": 73,
-            "physics": 84,
-            "biology": 76
-        }
-    },
-    {
-        "student_id": 12,
         "student_name": "Aditya",
         "student_dob": "2002-01-25",
         "student_class": 9,
         "student_gender": "M",
         "student_marks": {
-            "math": 32,
-            "chemistry": 54,
-            "physics": 81,
-            "biology": 90
+            "math": 43,
+            "chemistry": 50,
+            "physics": 71,
+            "biology": 62
+        }
+    },
+    {
+        "student_id": 2,
+        "student_name": "Subham",
+        "student_dob": "2005-07-21",
+        "student_class": 7,
+        "student_gender": "F",
+        "student_marks": {
+            "math": 50,
+            "chemistry": 97,
+            "physics": 52,
+            "biology": 51
         }
     }
 ]

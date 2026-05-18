@@ -1,0 +1,74 @@
+[
+    {
+        "name":"admin",
+        "phonenumber":"1234"
+    },
+    {
+        "name": "Aarav Sharma",
+        "phonenumber": "9876543210"
+    },
+    {
+        "name": "Priya Das",
+        "phonenumber": "9123456780"
+    },
+    {
+        "name": "Rahul Verma",
+        "phonenumber": "9988776655"
+    },
+    {
+        "name": "Sneha Patnaik",
+        "phonenumber": "9090909090"
+    },
+    {
+        "name": "Karan Mehta",
+        "phonenumber": "9812345678"
+    },
+    {
+        "name": "Ananya Roy",
+        "phonenumber": "9345678123"
+    },
+    {
+        "name": "Vikram Singh",
+        "phonenumber": "9765432109"
+    },
+    {
+        "name": "Neha Kulkarni",
+        "phonenumber": "9011223344"
+    },
+    {
+        "name": "Rohan Mishra",
+        "phonenumber": "9888997766"
+    },
+    {
+        "name": "Ishita Nair",
+        "phonenumber": "9556677889"
+    },
+    {
+        "name": "Aditya",
+        "phonenumber": "7205506633"
+    },
+    {
+        "name": "Subham",
+        "phonenumber": "8249785260"
+    },
+    {
+        "name": "Sabita",
+        "phonenumber": "7654367893"
+    },
+    {
+        "name": "Loknath",
+        "phonenumber": "2367564567"
+    },
+    {
+        "name": "Lokanath",
+        "phonenumber": "7463283728"
+    },
+    {
+        "name": "Anupama",
+        "phonenumber": "8767894563"
+    },
+    {
+        "name": "Subham",
+        "phonenumber": "7894561230"
+    }
+]
