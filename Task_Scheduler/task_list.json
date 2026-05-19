@@ -1,0 +1,20 @@
+[
+    {
+        "task_name": "Sit",
+        "deadline": "2026-09-12 12:40",
+        "priority": "High",
+        "is_completed": true
+    },
+    {
+        "task_name": "Play",
+        "deadline": "2027-01-25 04:30",
+        "priority": "Medium",
+        "is_completed": false
+    },
+    {
+        "task_name": "Read",
+        "deadline": "2026-08-13 10:30",
+        "priority": "High",
+        "is_completed": false
+    }
+]
