@@ -1,2 +1,5 @@
 __pycache__/
 *.pyc
+
+library_management_system/books.json
+library_management_system/users.json

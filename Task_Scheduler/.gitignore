@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+
+Task_Scheduler/task_list.json
