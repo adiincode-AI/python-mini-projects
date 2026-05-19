@@ -3,3 +3,4 @@ __pycache__/
 
 library_management_system/books.json
 library_management_system/users.json
+*.json
